@@ -23,7 +23,7 @@ jobs:
 
       - uses: actions/checkout@v3
 
-      - run: sh ./run.sh
+      - run: sh ./getData.sh
 
       - run: ls
 
