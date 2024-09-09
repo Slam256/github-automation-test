@@ -1,1 +1,1 @@
-curl "https://www.chattadata.org/resource/dxzz-idjy.csv" --output data.csv
+curl --output data.csv "https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%27name%27%2C%3A%3Alat%2C%3A%3Alon%2C%27cuisine%27%3Btrue%3B%27%2C%27%29%5D%3B%0Aarea%0A%20%20%20%5B%22wikidata%22%3D%22Q3894%22%5D%0A%20%20%20%5B%22name%22%3D%22Kampala%20Capital%20City%22%5D-%3E.a%3B%0A%0Anwr%5B%22amenity%22%3D%22restaurant%22%5D%28area.a%29%3B%0A%2F%2F%20calculate%20centroid%20of%20ways%20and%20relations%0Aout%20body%20center%3B"
